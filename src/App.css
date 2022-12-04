@@ -97,6 +97,7 @@ body {
   border-radius: none !important;
   background-color: white;
   padding: 0.6rem;
+  width: 100%;
 }
 #Footer {
   background: #52658f;
