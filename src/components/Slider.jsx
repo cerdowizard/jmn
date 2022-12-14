@@ -5,12 +5,12 @@ const Slider = () => {
     return (
         <div id="Slider">
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner h-100">
+                <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={imgOne} className="d-block w-100" alt="..." />
                         <div className="container imgUp">
-                            <h2>Exclusive Fabrics
-                                just for you</h2>
+                            <h1>Exclusive Fabrics
+                                just for you</h1>
                             <button className=''>Shop Now</button>
                         </div>
 
@@ -18,8 +18,8 @@ const Slider = () => {
                     <div className="carousel-item">
                         <img src={imgTwo} className="d-block w-100" alt="..." />
                         <div className="container imgUp">
-                            <h2>Great Quality
-                                Fabrics</h2>
+                            <h1>Great Quality
+                                Fabrics</h1>
                             <button className=''>Shop Now</button>
                         </div>
 
@@ -27,9 +27,9 @@ const Slider = () => {
                     <div className="carousel-item">
                         <img src={imgThree} className="d-block w-100" alt="..." />
                         <div className="container imgUp">
-                            <h2 className='ex'>Get your fabrics faster,
+                            <h1 className='ex'>Get your fabrics faster,
                                 cheaper
-                                and affordable</h2>
+                                and affordable</h1>
                             <button className=''>Shop Now</button>
                         </div>
 

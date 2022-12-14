@@ -10,11 +10,13 @@ import Register from "./pages/Register";
 import Category from "./components/Category";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import ProductDetails from './pages/ProductDetails';
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
+          <Route path='/ProductDetails/{id}' element={<ProductDetails />} />
           <Route path='/checkout' element={<Checkout />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/cat' element={<Category />} />
